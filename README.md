@@ -13,9 +13,9 @@ For macOS first you need to install Python
 python3 main.py
 
 # Dependecies
-Just install discord Libary
+Just install discord.py Libary
 
 For linux install pip first, for macOS and Windows install full python
 
 Use this command to install Discord API:
-pip install discord
+pip install discord.py
