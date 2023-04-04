@@ -53,7 +53,7 @@ async def info(ctx):
 async def clear(ctx, amount=250):
     """Clears a specified number of messages from the channel."""
     await ctx.channel.purge(limit=amount)
-    await ctx.send(f'{amount} сообщений были удалены с канала!')
+    await ctx.send(f'{amount} Messaged has been deleted from the channel!')
 
 @bot.command(name='mute')
 async def mute(ctx, member: discord.Member, *, reason=None):
@@ -67,14 +67,14 @@ async def mute(ctx, member: discord.Member, *, reason=None):
             await channel.set_permissions(mute_role, send_messages=False)
     
     await member.add_roles(mute_role, reason=reason)
-    await ctx.send(f'{member.mention} был замьючен.')
+    await ctx.send(f'{member.mention} has been muted.')
 
 @bot.command(name='unmute')
 @commands.has_permissions(administrator=True)
 async def unmute(ctx, member: discord.Member):
     muted_role = discord.utils.get(ctx.guild.roles, name="Muted")
     await member.remove_roles(muted_role)
-    await ctx.send(f"{member.mention} теперь может говорить.")
+    await ctx.send(f"{member.mention} now can talk!")
 
 
 # run the bot with the token from Discord Developer Portal
