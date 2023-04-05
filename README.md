@@ -6,11 +6,11 @@ put your token in the end of the code and start the code using command:
 
 Windows:
 First you need to install python
-python main.py 
+Start start.bat file
 
 macOS and Linux:
 For macOS first you need to install Python
-python3 main.py
+Start start.sh file
 
 # Dependecies
 Just install discord.py Libary
