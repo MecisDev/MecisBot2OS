@@ -45,7 +45,7 @@ async def ping(ctx):
 
 @bot.command(name='info')
 async def info(ctx):
-    embed=discord.Embed(title="Fatare Bot", description="FatareBOT OSC (OSC = Open Source Core) - Its a new version of FatareBot Core, but with more stable code and new features!", color=discord.Color.blue())
+    embed=discord.Embed(title="FatCisBot OSC", description="FatCisBot OSC (OSC = Open Source Core) - Its a new version of FatCisBot Core, but with more stable code and new features!", color=discord.Color.blue())
     await ctx.send(embed=embed)
 
 @bot.command(name='clear')
