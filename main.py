@@ -50,7 +50,7 @@ async def info(ctx):
 
 @bot.command(name='clear')
 @commands.has_permissions(manage_messages=True)
-async def clear(ctx, amount=250):
+async def clear(ctx, amount=350):
     """Clears a specified number of messages from the channel."""
     await ctx.channel.purge(limit=amount)
     await ctx.send(f'{amount} Messaged has been deleted from the channel!')
