@@ -76,6 +76,12 @@ async def unmute(ctx, member: discord.Member):
     await member.remove_roles(muted_role)
     await ctx.send(f"{member.mention} now can talk!")
 
+@bot.command(name='membercount')
+async def membercount(ctx):
+    """Displays the number of members in the server."""
+    member_count = ctx.guild.member_count
+    await ctx.send(f'There are currently {member_count} members in this server.')
+
 
 # run the bot with the token from Discord Developer Portal
 bot.run("#Your token here")
