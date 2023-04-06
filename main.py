@@ -14,6 +14,7 @@ async def on_member_join(member):
 # define a command to send a greeting message when the bot is ready
 @bot.event
 async def on_ready():
+    await bot.change_presence(activity=discord.Game(name="FatCisBot2C"))
     print(f'{bot.user.name} is ready to go!')
 
 # define a command to respond to a user command
