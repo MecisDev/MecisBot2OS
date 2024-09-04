@@ -1,4 +1,4 @@
-# FatCisBot2C
+# MecisBot2OS
 MecisBot2OS (OS = Open Source), Also codenamed Project B2C (Bot 2 Core).
 
 # How to use?
