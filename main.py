@@ -14,7 +14,7 @@ async def on_member_join(member):
 # define a command to send a greeting message when the bot is ready
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name="FatCisBot2C"))
+    await bot.change_presence(activity=discord.Game(name="MeisBot2OS"))
     print(f'{bot.user.name} is ready to go!')
 
 # define a command to respond to a user command
@@ -46,7 +46,7 @@ async def ping(ctx):
 
 @bot.command(name='info')
 async def info(ctx):
-    embed=discord.Embed(title="FatCisBot OSC", description="FatCisBot OSC (OSC = Open Source Core) - Its a new version of FatCisBot Core, but with more stable code and new features!", color=discord.Color.blue())
+    embed=discord.Embed(title="MecisBot OS", description="FatCisBot OSC (OSC = Open Source Core) - Its a new version of FatCisBot Core, but with more stable code and new features!", color=discord.Color.blue())
     await ctx.send(embed=embed)
 
 @bot.command(name='clear')
