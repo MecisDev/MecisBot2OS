@@ -1,5 +1,5 @@
 # MecisBot2OS
-MecisBot2OS (OS = Open Source), Also codenamed Project B2C (Bot 2 Core).
+MecisBot2OS (OS = Open Source), Also codenamed Project B2C (Bot 2 Core). creating of this bot was supported by chatgpt (maybe).
 
 # How to use?
 put your token in the end of the code and start the code using command:
